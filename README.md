@@ -47,8 +47,9 @@ Replace `wordlist.txt` with the path to your wordlist file, `<hash_type>` with t
 
 To crack multiple hash values from a file, use the following command:
 
+```python
 python main.py wordlist.txt <hash_type> -f <hash_file> -p <num_processes>
-
+```
 
 Replace `wordlist.txt` with the path to your wordlist file, `<hash_type>` with the type of hash to crack (`md5`, `sha1`, `sha256`, `sha512`, or `md4`), `<hash_file>` with the path to the file containing multiple hash values (one per line), and `<num_processes>` with the number of parallel processes to use (defaults to all CPU cores).
 
@@ -56,8 +57,12 @@ Replace `wordlist.txt` with the path to your wordlist file, `<hash_type>` with t
 
 Here are some usage examples:
 
+```sh
 python main.py wordlist.txt md5 -hv 098f6bcd4621d373cade4e832627b4f6
+```
+```sh
 python main.py wordlist.txt sha256 -f hashes.txt -p 4
+```
 
 
 ## License
