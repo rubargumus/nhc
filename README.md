@@ -1,0 +1,2 @@
+# nhc
+Hash Cracker Tool
