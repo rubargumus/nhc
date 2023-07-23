@@ -18,7 +18,7 @@ SHA Hash Cracker is a Python script that allows you to crack MD5, SHA-1, SHA-256
 
 1. Clone the repository:
 
-git clone https://github.com/your_username/your_repository_name.git
+git clone https://github.com/rubargumus/nhc.git
 cd your_repository_name
 
 2. Install the required packages:
@@ -53,10 +53,6 @@ Here are some usage examples:
 python main.py wordlist.txt md5 -hv 098f6bcd4621d373cade4e832627b4f6
 python main.py wordlist.txt sha256 -f hashes.txt -p 4
 
-
-## Contributing
-
-Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) for details.
 
 ## License
 
