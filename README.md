@@ -1,6 +1,6 @@
-# SHA Hash Cracker
+# NUKE Hash Cracker
 
-SHA Hash Cracker is a Python script that allows you to crack MD5, SHA-1, SHA-256, SHA-512, and MD4 hash values using a wordlist.
+NUKE Hash Cracker is a Python script that allows you to crack MD5, SHA-1, SHA-256, SHA-512, and MD4 hash values using a wordlist.
 
 ## Features
 
